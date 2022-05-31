@@ -2,7 +2,7 @@
 apiVersion: v2
 appVersion: 0.5.0
 description: A free and open-source Download Manager written in pure Python
-name: rutorrent
+name: pyload-ng
 version: 1.0.0-pre-02
 kubeVersion: ">=1.16.0-0"
 keywords:
