@@ -7,6 +7,33 @@ entries:
           description: Initial release
     apiVersion: v2
     appVersion: 0.5.0
+    created: "2022-05-31T17:04:17.460665331Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.4.2
+    description: A free and open-source Download Manager written in pure Python
+    digest: 5d7f657bb995617cf227ba1cef498cb672adba389f7c62ab60f5f8f260e4bda7
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/pyload-ng
+    icon: https://avatars.githubusercontent.com/u/88781313?s=200&v=4
+    keywords:
+    - pyload-ng
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: davidy@funkypenguin.co.nz
+      name: funkypenguin
+    name: pyload-ng
+    sources:
+    - https://github.com/pyload/pyload
+    urls:
+    - https://github.com/funkypenguin/helm-pyload-ng/releases/download/pyload-ng-1.0.0-pre-04/pyload-ng-1.0.0-pre-04.tgz
+    version: 1.0.0-pre-04
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: added
+          description: Initial release
+    apiVersion: v2
+    appVersion: 0.5.0
     created: "2022-05-31T16:09:12.743214281Z"
     dependencies:
     - name: common
